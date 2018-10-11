@@ -175,7 +175,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -203,6 +203,10 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+
+.intro-heading {
+    color: black;
+}
 @media (min-width: 768px) {
     header.masthead .intro-text {
         padding-top: 300px;
@@ -214,6 +218,9 @@ header.masthead .intro-text .intro-heading {
         line-height: 40px;
         margin-bottom: 25px;
         font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .intro-lead-in{
+        color: black;
     }
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
